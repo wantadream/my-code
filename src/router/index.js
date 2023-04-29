@@ -141,8 +141,8 @@ export const routes = [
 
     children: [
       {
-        path: "icon",
-        name: "icon",
+        path: "401",
+        name: "401",
         component: () => import("@/views/vab"),
         meta: { title: "401" },
       },
